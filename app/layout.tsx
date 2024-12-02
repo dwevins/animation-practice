@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header>
-          <nav className="flex p-8 pb-8 gap-8 sm:p-20">
+          <nav className="flex px-8 py-4 gap-8 sm:px-20">
             <Link href="/">Home</Link>
             <Link href="secondary">Secondary</Link>
           </nav>
