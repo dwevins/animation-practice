@@ -5,7 +5,7 @@
 
 import { AnimatePresence } from "motion/react";
 import { ReactNode } from "react";
-import Transition from "./transition";
+import Transition from "./components/transition";
 
 interface props {
   children: ReactNode;
